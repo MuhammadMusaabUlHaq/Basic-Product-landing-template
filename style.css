@@ -1,0 +1,57 @@
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.header, .content{
+    display: flex;
+    background-color: #1f2937;
+    gap: 30px;
+}
+
+.homepage-image{
+    width: 400px;
+    border-radius: 20%;
+    height: auto;
+    margin-right: 200px;
+    margin-top: 75px;
+    filter: drop-shadow(20px 10px 5px black);
+}
+
+.logo {
+    height: auto;
+    width: 50px;
+    mix-blend-mode:lighten;
+    filter: invert(100%);
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.content-text{
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 100px;
+    color: white;
+}
+
+.signup{
+    padding: 10px 30px;
+    filter: drop-shadow(5px 3px 3px black);
+    display: flex;
+    margin-left: auto;
+}
+.signup:hover{
+    background-color: darkseagreen;
+    color: white;
+    filter: drop-shadow(15px 10px 3px black);
+}
+.header-list{
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    padding: 10px;
+    margin-right: 70px;
+}
