@@ -10,7 +10,7 @@ a{
     display: flex;
     background-color: #1f2937;
     gap: 30px;
-    border: solid 10px rgba(0, 0, 0, 0.507);   
+    border: solid 20px rgba(0, 0, 0, 0.507);   
 }
 .header{
     border-bottom: 0px;
@@ -66,7 +66,7 @@ a{
 
 .attractive-information{
     text-align: center;
-    background:rgba(0, 0, 0, 0.11);
+    background:rgb(255, 255, 255);
     padding: 25px;
     margin-top: -20px;
 }
@@ -79,19 +79,29 @@ a{
 }
 
 .box-1,.box-2,.box-3,.box-4,.box-5{
-    border: solid 2px rgba(0, 0, 0, 0.5);
+    
     padding: 40px;
-    background: rgba(255, 255, 255, 0.575);
     border-radius: 5%;
+    width: 130px;
+    border-left: solid 5px grey;
 }
 .box-4{
     padding: 58px;
 }
+.box-1{
+    border-left: 0px;
+}
 
+h3{
+    align-self: center;
+}
 
 .attractive-information-points{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    border: solid 2px rgb(13, 0, 201);
+    border-radius: 10%;
+    margin: 20px 40px;
 }
